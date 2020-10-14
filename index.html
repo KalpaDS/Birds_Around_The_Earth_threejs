@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NeoMinds-Demo</title>
+    <script src="assets/jquery-3.4.1.js"></script>
+    <script src="node_modules/gsap/dist/gsap.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<div id="welcome">
+    <h1>...Welcome - Back To The NeoWorld Site...</h1>
+</div>
+<script type="module" src="script.js"></script>
+<script>
+    TweenMax.to('#welcome', {duration: 4, y: 60, opacity: 0, ease: Power1.easeOut});
+</script>
+</body>
+</html>
