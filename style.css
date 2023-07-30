@@ -1,0 +1,10 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
